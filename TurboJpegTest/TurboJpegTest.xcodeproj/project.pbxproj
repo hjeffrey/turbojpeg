@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16C550A71A679D3900B5224F /* testimgp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 16C550A61A679D3900B5224F /* testimgp.jpg */; };
+		16C550B21A679D8100B5224F /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C550B01A679D8100B5224F /* libjpeg.a */; };
+		16C550B31A679D8100B5224F /* libturbojpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C550B11A679D8100B5224F /* libturbojpeg.a */; };
+		DD7DA8F61A67846700C07FAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7DA8F51A67846700C07FAC /* main.m */; };
+		DD7DA8F91A67846700C07FAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7DA8F81A67846700C07FAC /* AppDelegate.m */; };
+		DD7DA8FC1A67846700C07FAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7DA8FB1A67846700C07FAC /* ViewController.m */; };
+		DD7DA8FF1A67846700C07FAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7DA8FD1A67846700C07FAC /* Main.storyboard */; };
+		DD7DA9011A67846700C07FAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7DA9001A67846700C07FAC /* Images.xcassets */; };
+		DD7DA9041A67846700C07FAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD7DA9021A67846700C07FAC /* LaunchScreen.xib */; };
+		DD7DA9101A67846700C07FAC /* TurboJpegTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7DA90F1A67846700C07FAC /* TurboJpegTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD7DA90A1A67846700C07FAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD7DA8E81A67846700C07FAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD7DA8EF1A67846700C07FAC;
+			remoteInfo = TurboJpegTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16C550A61A679D3900B5224F /* testimgp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testimgp.jpg; sourceTree = "<group>"; };
+		16C550AA1A679D8100B5224F /* jconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jconfig.h; sourceTree = "<group>"; };
+		16C550AB1A679D8100B5224F /* jerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jerror.h; sourceTree = "<group>"; };
+		16C550AC1A679D8100B5224F /* jmorecfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jmorecfg.h; sourceTree = "<group>"; };
+		16C550AD1A679D8100B5224F /* jpeglib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpeglib.h; sourceTree = "<group>"; };
+		16C550AE1A679D8100B5224F /* turbojpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = turbojpeg.h; sourceTree = "<group>"; };
+		16C550B01A679D8100B5224F /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
+		16C550B11A679D8100B5224F /* libturbojpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libturbojpeg.a; sourceTree = "<group>"; };
+		DD7DA8F01A67846700C07FAC /* TurboJpegTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurboJpegTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7DA8F41A67846700C07FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7DA8F51A67846700C07FAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD7DA8F71A67846700C07FAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD7DA8F81A67846700C07FAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD7DA8FA1A67846700C07FAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD7DA8FB1A67846700C07FAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD7DA8FE1A67846700C07FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD7DA9001A67846700C07FAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD7DA9031A67846700C07FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DD7DA9091A67846700C07FAC /* TurboJpegTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurboJpegTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7DA90E1A67846700C07FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7DA90F1A67846700C07FAC /* TurboJpegTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TurboJpegTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD7DA8ED1A67846700C07FAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C550B31A679D8100B5224F /* libturbojpeg.a in Frameworks */,
+				16C550B21A679D8100B5224F /* libjpeg.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7DA9061A67846700C07FAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C550A81A679D8100B5224F /* dependencies-lib */ = {
+			isa = PBXGroup;
+			children = (
+				16C550A91A679D8100B5224F /* include */,
+				16C550AF1A679D8100B5224F /* lib */,
+			);
+			path = "dependencies-lib";
+			sourceTree = "<group>";
+		};
+		16C550A91A679D8100B5224F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				16C550AA1A679D8100B5224F /* jconfig.h */,
+				16C550AB1A679D8100B5224F /* jerror.h */,
+				16C550AC1A679D8100B5224F /* jmorecfg.h */,
+				16C550AD1A679D8100B5224F /* jpeglib.h */,
+				16C550AE1A679D8100B5224F /* turbojpeg.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		16C550AF1A679D8100B5224F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				16C550B01A679D8100B5224F /* libjpeg.a */,
+				16C550B11A679D8100B5224F /* libturbojpeg.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		DD7DA8E71A67846700C07FAC = {
+			isa = PBXGroup;
+			children = (
+				DD7DA8F21A67846700C07FAC /* TurboJpegTest */,
+				DD7DA90C1A67846700C07FAC /* TurboJpegTestTests */,
+				DD7DA8F11A67846700C07FAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD7DA8F11A67846700C07FAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD7DA8F01A67846700C07FAC /* TurboJpegTest.app */,
+				DD7DA9091A67846700C07FAC /* TurboJpegTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD7DA8F21A67846700C07FAC /* TurboJpegTest */ = {
+			isa = PBXGroup;
+			children = (
+				16C550A61A679D3900B5224F /* testimgp.jpg */,
+				DD7DA8F71A67846700C07FAC /* AppDelegate.h */,
+				DD7DA8F81A67846700C07FAC /* AppDelegate.m */,
+				DD7DA8FA1A67846700C07FAC /* ViewController.h */,
+				DD7DA8FB1A67846700C07FAC /* ViewController.m */,
+				DD7DA8FD1A67846700C07FAC /* Main.storyboard */,
+				DD7DA9001A67846700C07FAC /* Images.xcassets */,
+				DD7DA9021A67846700C07FAC /* LaunchScreen.xib */,
+				DD7DA8F31A67846700C07FAC /* Supporting Files */,
+				16C550A81A679D8100B5224F /* dependencies-lib */,
+			);
+			path = TurboJpegTest;
+			sourceTree = "<group>";
+		};
+		DD7DA8F31A67846700C07FAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD7DA8F41A67846700C07FAC /* Info.plist */,
+				DD7DA8F51A67846700C07FAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD7DA90C1A67846700C07FAC /* TurboJpegTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD7DA90F1A67846700C07FAC /* TurboJpegTestTests.m */,
+				DD7DA90D1A67846700C07FAC /* Supporting Files */,
+			);
+			path = TurboJpegTestTests;
+			sourceTree = "<group>";
+		};
+		DD7DA90D1A67846700C07FAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD7DA90E1A67846700C07FAC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD7DA8EF1A67846700C07FAC /* TurboJpegTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7DA9131A67846700C07FAC /* Build configuration list for PBXNativeTarget "TurboJpegTest" */;
+			buildPhases = (
+				DD7DA8EC1A67846700C07FAC /* Sources */,
+				DD7DA8ED1A67846700C07FAC /* Frameworks */,
+				DD7DA8EE1A67846700C07FAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurboJpegTest;
+			productName = TurboJpegTest;
+			productReference = DD7DA8F01A67846700C07FAC /* TurboJpegTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD7DA9081A67846700C07FAC /* TurboJpegTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7DA9161A67846700C07FAC /* Build configuration list for PBXNativeTarget "TurboJpegTestTests" */;
+			buildPhases = (
+				DD7DA9051A67846700C07FAC /* Sources */,
+				DD7DA9061A67846700C07FAC /* Frameworks */,
+				DD7DA9071A67846700C07FAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD7DA90B1A67846700C07FAC /* PBXTargetDependency */,
+			);
+			name = TurboJpegTestTests;
+			productName = TurboJpegTestTests;
+			productReference = DD7DA9091A67846700C07FAC /* TurboJpegTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD7DA8E81A67846700C07FAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = taohongtao;
+				TargetAttributes = {
+					DD7DA8EF1A67846700C07FAC = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					DD7DA9081A67846700C07FAC = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = DD7DA8EF1A67846700C07FAC;
+					};
+				};
+			};
+			buildConfigurationList = DD7DA8EB1A67846700C07FAC /* Build configuration list for PBXProject "TurboJpegTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD7DA8E71A67846700C07FAC;
+			productRefGroup = DD7DA8F11A67846700C07FAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD7DA8EF1A67846700C07FAC /* TurboJpegTest */,
+				DD7DA9081A67846700C07FAC /* TurboJpegTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD7DA8EE1A67846700C07FAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C550A71A679D3900B5224F /* testimgp.jpg in Resources */,
+				DD7DA8FF1A67846700C07FAC /* Main.storyboard in Resources */,
+				DD7DA9041A67846700C07FAC /* LaunchScreen.xib in Resources */,
+				DD7DA9011A67846700C07FAC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7DA9071A67846700C07FAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD7DA8EC1A67846700C07FAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7DA8FC1A67846700C07FAC /* ViewController.m in Sources */,
+				DD7DA8F91A67846700C07FAC /* AppDelegate.m in Sources */,
+				DD7DA8F61A67846700C07FAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7DA9051A67846700C07FAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7DA9101A67846700C07FAC /* TurboJpegTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD7DA90B1A67846700C07FAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD7DA8EF1A67846700C07FAC /* TurboJpegTest */;
+			targetProxy = DD7DA90A1A67846700C07FAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD7DA8FD1A67846700C07FAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD7DA8FE1A67846700C07FAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD7DA9021A67846700C07FAC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD7DA9031A67846700C07FAC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD7DA9111A67846700C07FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD7DA9121A67846700C07FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD7DA9141A67846700C07FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TurboJpegTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TurboJpegTest",
+					"$(PROJECT_DIR)/TurboJpegTest/dependencies-lib/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD7DA9151A67846700C07FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TurboJpegTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TurboJpegTest",
+					"$(PROJECT_DIR)/TurboJpegTest/dependencies-lib/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD7DA9171A67846700C07FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TurboJpegTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurboJpegTest.app/TurboJpegTest";
+			};
+			name = Debug;
+		};
+		DD7DA9181A67846700C07FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TurboJpegTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurboJpegTest.app/TurboJpegTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD7DA8EB1A67846700C07FAC /* Build configuration list for PBXProject "TurboJpegTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7DA9111A67846700C07FAC /* Debug */,
+				DD7DA9121A67846700C07FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7DA9131A67846700C07FAC /* Build configuration list for PBXNativeTarget "TurboJpegTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7DA9141A67846700C07FAC /* Debug */,
+				DD7DA9151A67846700C07FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7DA9161A67846700C07FAC /* Build configuration list for PBXNativeTarget "TurboJpegTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7DA9171A67846700C07FAC /* Debug */,
+				DD7DA9181A67846700C07FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD7DA8E81A67846700C07FAC /* Project object */;
+}
