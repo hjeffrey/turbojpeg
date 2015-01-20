@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16301EE41A6DFD1D00703A66 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16301EE21A6DFD1D00703A66 /* libjpeg.a */; };
+		16301EE51A6DFD1D00703A66 /* libturbojpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16301EE31A6DFD1D00703A66 /* libturbojpeg.a */; };
 		16C550A71A679D3900B5224F /* testimgp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 16C550A61A679D3900B5224F /* testimgp.jpg */; };
-		16C550B21A679D8100B5224F /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C550B01A679D8100B5224F /* libjpeg.a */; };
-		16C550B31A679D8100B5224F /* libturbojpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C550B11A679D8100B5224F /* libturbojpeg.a */; };
 		DD7DA8F61A67846700C07FAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7DA8F51A67846700C07FAC /* main.m */; };
 		DD7DA8F91A67846700C07FAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7DA8F81A67846700C07FAC /* AppDelegate.m */; };
 		DD7DA8FC1A67846700C07FAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7DA8FB1A67846700C07FAC /* ViewController.m */; };
@@ -30,14 +30,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16301EDC1A6DFD1D00703A66 /* jconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jconfig.h; sourceTree = "<group>"; };
+		16301EDD1A6DFD1D00703A66 /* jerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jerror.h; sourceTree = "<group>"; };
+		16301EDE1A6DFD1D00703A66 /* jmorecfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jmorecfg.h; sourceTree = "<group>"; };
+		16301EDF1A6DFD1D00703A66 /* jpeglib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpeglib.h; sourceTree = "<group>"; };
+		16301EE01A6DFD1D00703A66 /* turbojpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = turbojpeg.h; sourceTree = "<group>"; };
+		16301EE21A6DFD1D00703A66 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
+		16301EE31A6DFD1D00703A66 /* libturbojpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libturbojpeg.a; sourceTree = "<group>"; };
 		16C550A61A679D3900B5224F /* testimgp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testimgp.jpg; sourceTree = "<group>"; };
-		16C550AA1A679D8100B5224F /* jconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jconfig.h; sourceTree = "<group>"; };
-		16C550AB1A679D8100B5224F /* jerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jerror.h; sourceTree = "<group>"; };
-		16C550AC1A679D8100B5224F /* jmorecfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jmorecfg.h; sourceTree = "<group>"; };
-		16C550AD1A679D8100B5224F /* jpeglib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpeglib.h; sourceTree = "<group>"; };
-		16C550AE1A679D8100B5224F /* turbojpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = turbojpeg.h; sourceTree = "<group>"; };
-		16C550B01A679D8100B5224F /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
-		16C550B11A679D8100B5224F /* libturbojpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libturbojpeg.a; sourceTree = "<group>"; };
 		DD7DA8F01A67846700C07FAC /* TurboJpegTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurboJpegTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7DA8F41A67846700C07FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD7DA8F51A67846700C07FAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -58,8 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16C550B31A679D8100B5224F /* libturbojpeg.a in Frameworks */,
-				16C550B21A679D8100B5224F /* libjpeg.a in Frameworks */,
+				16301EE51A6DFD1D00703A66 /* libturbojpeg.a in Frameworks */,
+				16301EE41A6DFD1D00703A66 /* libjpeg.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,32 +73,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16C550A81A679D8100B5224F /* dependencies-lib */ = {
+		16301EDA1A6DFD1D00703A66 /* dependencies-lib */ = {
 			isa = PBXGroup;
 			children = (
-				16C550A91A679D8100B5224F /* include */,
-				16C550AF1A679D8100B5224F /* lib */,
+				16301EDB1A6DFD1D00703A66 /* include */,
+				16301EE11A6DFD1D00703A66 /* lib */,
 			);
-			path = "dependencies-lib";
+			name = "dependencies-lib";
+			path = "../../dependencies-lib";
 			sourceTree = "<group>";
 		};
-		16C550A91A679D8100B5224F /* include */ = {
+		16301EDB1A6DFD1D00703A66 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				16C550AA1A679D8100B5224F /* jconfig.h */,
-				16C550AB1A679D8100B5224F /* jerror.h */,
-				16C550AC1A679D8100B5224F /* jmorecfg.h */,
-				16C550AD1A679D8100B5224F /* jpeglib.h */,
-				16C550AE1A679D8100B5224F /* turbojpeg.h */,
+				16301EDC1A6DFD1D00703A66 /* jconfig.h */,
+				16301EDD1A6DFD1D00703A66 /* jerror.h */,
+				16301EDE1A6DFD1D00703A66 /* jmorecfg.h */,
+				16301EDF1A6DFD1D00703A66 /* jpeglib.h */,
+				16301EE01A6DFD1D00703A66 /* turbojpeg.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
 		};
-		16C550AF1A679D8100B5224F /* lib */ = {
+		16301EE11A6DFD1D00703A66 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				16C550B01A679D8100B5224F /* libjpeg.a */,
-				16C550B11A679D8100B5224F /* libturbojpeg.a */,
+				16301EE21A6DFD1D00703A66 /* libjpeg.a */,
+				16301EE31A6DFD1D00703A66 /* libturbojpeg.a */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -132,8 +133,8 @@
 				DD7DA8FD1A67846700C07FAC /* Main.storyboard */,
 				DD7DA9001A67846700C07FAC /* Images.xcassets */,
 				DD7DA9021A67846700C07FAC /* LaunchScreen.xib */,
+				16301EDA1A6DFD1D00703A66 /* dependencies-lib */,
 				DD7DA8F31A67846700C07FAC /* Supporting Files */,
-				16C550A81A679D8100B5224F /* dependencies-lib */,
 			);
 			path = TurboJpegTest;
 			sourceTree = "<group>";
@@ -397,6 +398,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/TurboJpegTest",
 					"$(PROJECT_DIR)/TurboJpegTest/dependencies-lib/lib",
+					"/Users/jyh/WorkSpace/turbojpeg/dependencies-lib/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +414,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/TurboJpegTest",
 					"$(PROJECT_DIR)/TurboJpegTest/dependencies-lib/lib",
+					"/Users/jyh/WorkSpace/turbojpeg/dependencies-lib/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

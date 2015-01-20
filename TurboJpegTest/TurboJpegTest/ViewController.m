@@ -14,7 +14,7 @@ typedef struct
     BOOL isSpecialLoadWidthHeight;
     CGFloat loadWidth;
     CGFloat loadHeight;
-}ZLImageLoadOption;
+} ZLImageLoadOption;
 
 @interface ViewController ()
 
@@ -22,17 +22,22 @@ typedef struct
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    UIImageView *imageView = [[UIImageView alloc] initWithFrame:self.view.frame];
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"testimgp" ofType:@"jpg"];
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectZero];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"testimgp"
+                                                     ofType:@"jpg"];
     imageView.image = [self turboJpegLoadImage:path];
+    [imageView sizeToFit];
+    imageView.center = self.view.center;
     [self.view addSubview:imageView];
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
@@ -43,8 +48,8 @@ typedef struct
     NSData *data = [NSData dataWithContentsOfFile:imagePath];
     ZLImageLoadOption option;
     option.isSpecialLoadWidthHeight = YES;
-    option.loadWidth = self.view.frame.size.width;
-    option.loadHeight = self.view.frame.size.height;
+    option.loadWidth = 227;
+    option.loadHeight = 149;
     CGImageRef img = loadJpegImage((unsigned char*)[data bytes], [data length], option);
     return [UIImage imageWithCGImage:img];
 }
